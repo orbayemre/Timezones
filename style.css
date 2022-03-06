@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@500&family=Bebas+Neue&family=Itim&family=Jura:wght@300&family=Teko:wght@300&family=Urbanist&family=Vidaloka&family=Viga&family=Yanone+Kaffeesatz&display=swap');
+*,::after,::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.cities-box{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 300px;
+    color: white;
+    transition: 0.5s;
+    background-size: cover;
+    background-position: center;
+    filter: blur(1px);
+}
+.cities-box:hover  {
+    filter: blur(0px);
+}
+.name{
+    display: flex;
+    height: 40%;
+    padding-top: 20%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Teko', sans-serif;
+    font-size: 32px;
+
+}
+.time{
+    display: flex;
+    height: 60%;
+    padding-bottom: 20%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 32px;
+}
+.time .date{
+    padding-top: 10px;
+    font-family: 'Jura', sans-serif;
+    font-size: 24px;
+
+}
+#tokyo{
+    background-image: url("https://images.pexels.com/photos/2614818/pexels-photo-2614818.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+}
+#santiago{
+    background-image: url("https://media.istockphoto.com/photos/skyline-of-santiago-de-chile-picture-id913781186?k=20&m=913781186&s=170667a&w=0&h=0G0ZuYm6zKqdopzh5kc45M3eVpeIQFfe3dRMLzkCsGE=");
+}
+#santiago .name{
+    color: black;
+}
+#istanbul{
+    background-image: url("https://images.pexels.com/photos/8071157/pexels-photo-8071157.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+}
+#stockholm{
+    color: black;
+    background-image: url("https://images.pexels.com/photos/3030468/pexels-photo-3030468.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+}
+#stockholm .date{
+    color: white;
+}
+#houston{
+    background-image: url("https://cdn.turkishairlines.com/m/20b5ad5bc8f0bd56/original/1400-660-jpg.jpg");
+}
+#rio{
+    background-image: url("https://images.pexels.com/photos/6580703/pexels-photo-6580703.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+}
+#newDelhi{
+    color: black;
+    background-image: url("https://images.pexels.com/photos/1007426/pexels-photo-1007426.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+}
+#berlin{
+    color: black;
+    background-image: url("https://images.pexels.com/photos/1128408/pexels-photo-1128408.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+}
+#melbourne{
+    color: black;
+    background-image: url("https://images.pexels.com/photos/2097616/pexels-photo-2097616.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+}
+#capeTown{
+    background-image: url("https://cdn.wallpapersafari.com/59/83/LiqGdA.jpg");
+}
+#montreal{
+    background-image: url("https://images.pexels.com/photos/2889701/pexels-photo-2889701.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+}
+#cairo{
+    background-image: url("https://images.pexels.com/photos/7566890/pexels-photo-7566890.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+}
+#miami{
+    background-image: url("https://images.pexels.com/photos/421655/pexels-photo-421655.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+}
+#budapest{
+    background-image: url("https://images.pexels.com/photos/2350351/pexels-photo-2350351.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+}
+#islamabad{
+    background-image: url("https://media.istockphoto.com/photos/shah-faisal-mosque-is-the-masjid-in-islamabad-pakistan-located-on-the-picture-id1285603777?b=1&k=20&m=1285603777&s=170667a&w=0&h=E-blcVOWbbA6PuobCQKVw0iaNbrezOOIC96gAsTewtE=");
+}
+#london{
+    background-image: url("https://images.pexels.com/photos/258117/pexels-photo-258117.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+}
+#lagos{
+    background-image: url("https://ak.picdn.net/shutterstock/videos/1008430417/thumb/1.jpg");
+}
+#singapore{
+    background-image: url("https://images.pexels.com/photos/1842332/pexels-photo-1842332.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+}
+#lisbon{
+    background-image: url("https://wallpaperaccess.com/full/1423575.jpg");
+}
+#shanghai{
+    background-image: url("https://images.pexels.com/photos/687450/pexels-photo-687450.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+}
+#dubai{
+    background-image: url("https://images.pexels.com/photos/3763190/pexels-photo-3763190.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+}
+#newYork{
+    background-image: url("https://images.pexels.com/photos/3559235/pexels-photo-3559235.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+}
+#baku{
+    color: black;
+    background-image: url("https://wallpaperbat.com/img/259671-baku-azerbaijan-wallpaper-baku-country-hd-wallpaper.jpg");
+}
+#rome{
+    color: black;
+    background-image: url("https://images.pexels.com/photos/2760519/pexels-photo-2760519.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+}
+#moscow{
+    background-image: url("https://images.pexels.com/photos/8285193/pexels-photo-8285193.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+}
+#barcelona{
+    background-image: url("https://images.pexels.com/photos/9022637/pexels-photo-9022637.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+}
+#losAngeles{
+    background-image: url("https://images.pexels.com/photos/2525903/pexels-photo-2525903.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+}
+#jeddah{
+    background-image: url(" https://media.istockphoto.com/photos/jeddah-corniche-aerial-view-2018-picture-id1248308148?b=1&k=20&m=1248308148&s=170667a&w=0&h=_aKLnY6lquojmtdRtdZnLhoOaW1KXw99_wFQC_q5IMw=");
+}
